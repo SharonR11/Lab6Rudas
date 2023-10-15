@@ -45,10 +45,10 @@ namespace Lab6Rudas
                 new Estudiante("Seccion A", "Deysi", "Lloja"),
                 new Estudiante("Seccion A", "Ana", "Cristina"),
                 new Estudiante("Seccion A", "Luis", "Islachin"),
-                new Estudiante("Seccion B", "Brooke", "Lumia"),
-                new Estudiante("Seccion B", "Bobby", "Xperia"),
-                new Estudiante("Seccion B", "Bella", "Desire"),
-                new Estudiante("Seccion B", "Ben", "Chocolate")
+                new Estudiante("Seccion B", "Brooke", "Karia"),
+                new Estudiante("Seccion B", "Bobby", "Martinez"),
+                new Estudiante("Seccion B", "Marta", "Desys"),
+                new Estudiante("Seccion B", "Ben", "Cald")
             };
 
             var grupos = estudiantes
