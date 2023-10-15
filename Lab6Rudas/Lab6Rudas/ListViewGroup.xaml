@@ -4,16 +4,20 @@
              x:Class="Lab6Rudas.ListViewGroup">
     <ContentPage.Content>
         <StackLayout>
-            <ListView  x:Name="GroupedView"
-                   GroupDisplayBinding="{Binding Nombre}"
-                   GroupShortNameBinding="{Binding Apellido}"
-                   IsGroupingEnabled="true">
+            <ListView x:Name="GroupedView" IsGroupingEnabled="True">
+               
+                <ListView.GroupHeaderTemplate  >
+                    <DataTemplate >
+                        <TextCell Text="{Binding Key}"  TextColor="Black" />
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Nombre}"
-                              Detail="{Binding Seccion}" />
+                        <TextCell Text="{Binding Persona}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                
             </ListView>
         </StackLayout>
         
